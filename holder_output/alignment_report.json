@@ -1,0 +1,16 @@
+{
+  "coarse_score_m": 0.0019596302571254233,
+  "final_score_m": 0.001440975249228017,
+  "optimized_params": {
+    "tx_m": 0.13684995194036798,
+    "ty_m": 0.09263138856954778,
+    "yaw_deg": 88.55492042809229,
+    "tz_m": 0.004368799137949007
+  },
+  "success": true,
+  "message": "Optimization terminated successfully.",
+  "mesh_scale_applied": 0.001,
+  "num_frames_used": 7,
+  "num_alignment_points": 8937,
+  "texture_atlas_size": 2048
+}

@@ -1,0 +1,42 @@
+[
+  {
+    "frame_id": "001",
+    "bbox_xywh": [
+      264,
+      181,
+      82,
+      77
+    ],
+    "mask_area_px": 5925
+  },
+  {
+    "frame_id": "002",
+    "bbox_xywh": [
+      377,
+      226,
+      79,
+      72
+    ],
+    "mask_area_px": 4770
+  },
+  {
+    "frame_id": "004",
+    "bbox_xywh": [
+      433,
+      207,
+      71,
+      72
+    ],
+    "mask_area_px": 4376
+  },
+  {
+    "frame_id": "005",
+    "bbox_xywh": [
+      498,
+      190,
+      84,
+      84
+    ],
+    "mask_area_px": 5737
+  }
+]

@@ -1,0 +1,63 @@
+{
+  "capture_root": "holder_dataset",
+  "camera_name": "eye1",
+  "num_frames": 7,
+  "frames": [
+    {
+      "frame_id": "000",
+      "capture_name": "capture_20260406_165225_756228",
+      "rgb_path": "holder_clean_dataset/rgb/000.jpg",
+      "depth_path": "holder_clean_dataset/depth/000.npz",
+      "source_rgb_path": "holder_dataset/capture_20260406_165225_756228/eye1/image.jpg",
+      "source_depth_path": "holder_dataset/capture_20260406_165225_756228/eye1/aligned_depth_to_color.npz"
+    },
+    {
+      "frame_id": "001",
+      "capture_name": "capture_20260406_165233_107433",
+      "rgb_path": "holder_clean_dataset/rgb/001.jpg",
+      "depth_path": "holder_clean_dataset/depth/001.npz",
+      "source_rgb_path": "holder_dataset/capture_20260406_165233_107433/eye1/image.jpg",
+      "source_depth_path": "holder_dataset/capture_20260406_165233_107433/eye1/aligned_depth_to_color.npz"
+    },
+    {
+      "frame_id": "002",
+      "capture_name": "capture_20260406_165239_286259",
+      "rgb_path": "holder_clean_dataset/rgb/002.jpg",
+      "depth_path": "holder_clean_dataset/depth/002.npz",
+      "source_rgb_path": "holder_dataset/capture_20260406_165239_286259/eye1/image.jpg",
+      "source_depth_path": "holder_dataset/capture_20260406_165239_286259/eye1/aligned_depth_to_color.npz"
+    },
+    {
+      "frame_id": "003",
+      "capture_name": "capture_20260406_165248_640664",
+      "rgb_path": "holder_clean_dataset/rgb/003.jpg",
+      "depth_path": "holder_clean_dataset/depth/003.npz",
+      "source_rgb_path": "holder_dataset/capture_20260406_165248_640664/eye1/image.jpg",
+      "source_depth_path": "holder_dataset/capture_20260406_165248_640664/eye1/aligned_depth_to_color.npz"
+    },
+    {
+      "frame_id": "004",
+      "capture_name": "capture_20260406_165304_842006",
+      "rgb_path": "holder_clean_dataset/rgb/004.jpg",
+      "depth_path": "holder_clean_dataset/depth/004.npz",
+      "source_rgb_path": "holder_dataset/capture_20260406_165304_842006/eye1/image.jpg",
+      "source_depth_path": "holder_dataset/capture_20260406_165304_842006/eye1/aligned_depth_to_color.npz"
+    },
+    {
+      "frame_id": "005",
+      "capture_name": "capture_20260406_165311_024307",
+      "rgb_path": "holder_clean_dataset/rgb/005.jpg",
+      "depth_path": "holder_clean_dataset/depth/005.npz",
+      "source_rgb_path": "holder_dataset/capture_20260406_165311_024307/eye1/image.jpg",
+      "source_depth_path": "holder_dataset/capture_20260406_165311_024307/eye1/aligned_depth_to_color.npz"
+    },
+    {
+      "frame_id": "006",
+      "capture_name": "capture_20260406_165328_728650",
+      "rgb_path": "holder_clean_dataset/rgb/006.jpg",
+      "depth_path": "holder_clean_dataset/depth/006.npz",
+      "source_rgb_path": "holder_dataset/capture_20260406_165328_728650/eye1/image.jpg",
+      "source_depth_path": "holder_dataset/capture_20260406_165328_728650/eye1/aligned_depth_to_color.npz"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "camera_intrinsics": {
+    "fx": 605.1414184570312,
+    "fy": 604.7616577148438,
+    "cx": 417.1040954589844,
+    "cy": 250.10911560058594,
+    "width": 848,
+    "height": 480
+  },
+  "charuco_spec": {
+    "squares_x": 12,
+    "squares_y": 8,
+    "marker_square_ratio": 0.75,
+    "dictionary_name": "DICT_4X4_100",
+    "min_corners": 6,
+    "estimated_square_length_m": 0.022806267667563707,
+    "estimated_marker_length_m": 0.01710470075067278
+  },
+  "selection": {
+    "min_optical_axis_angle_deg": 15.0,
+    "max_views": null,
+    "dedupe_position_tol_m": 0.01,
+    "selected_frame_ids": [
+      "001",
+      "002",
+      "004",
+      "005"
+    ]
+  }
+}
