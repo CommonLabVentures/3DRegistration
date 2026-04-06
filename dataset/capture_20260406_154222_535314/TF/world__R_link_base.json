@@ -1,0 +1,21 @@
+{
+  "source_frame": "world",
+  "destination_frame": "R_link_base",
+  "type": "static",
+  "is_static": true,
+  "timestamp": 1775461307.2679503,
+  "topic": "/tf_static",
+  "transform": {
+    "translation": {
+      "x": 0.0,
+      "y": -0.27,
+      "z": 0.02
+    },
+    "rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.9999999999991198,
+      "w": 1.3267948966775328e-06
+    }
+  }
+}

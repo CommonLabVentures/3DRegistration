@@ -1,0 +1,43 @@
+# config.yaml — Textured Mesh Pipeline configuration
+#
+# For the capture_* dataset format (robot data), most of these values are
+# auto-detected from color_camera_info.json in each capture directory.
+# Provide this file only when using the flat rgb/depth directory layout,
+# or when you want to override defaults.
+
+camera:
+  fx: 605.14
+  fy: 604.76
+  cx: 417.10
+  cy: 250.11
+  width: 848
+  height: 480
+  depth_scale: 1.0        # 1.0 = depth already in metres
+
+charuco:
+  squares_x: 5
+  squares_y: 7
+  square_length: 0.04     # metres
+  marker_length: 0.03     # metres
+  dictionary: DICT_4X4_100
+  min_corners: 6          # minimum detected ChArUco corners per frame
+
+segmentation:
+  board_plane_inlier_threshold: 0.008   # RANSAC, metres
+  object_min_height: 0.005              # above board plane, metres
+  object_max_height: 0.30
+  grabcut_iters: 5
+
+alignment:
+  method: silhouette                    # "silhouette" or "icp_then_silhouette"
+  init_method: centroid                 # "centroid", "pca", "exhaustive", "points"
+  optimizer: Powell                     # scipy.optimize method
+  max_iter: 500
+  iou_warn_threshold: 0.30
+
+texturing:
+  atlas_size: 2048
+  view_angle_threshold_deg: 75.0        # max angle between face normal and view ray
+  seam_blend: laplacian                 # "laplacian", "poisson", "none"
+  seam_blend_iters: 10
+  unseen_fill: neighbor                 # "neighbor", "magenta", "inpaint"

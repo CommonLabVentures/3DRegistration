@@ -1,0 +1,44 @@
+{
+  "topic": "/R_ufactory/joint_states",
+  "status": "ok",
+  "header": {
+    "stamp": {
+      "sec": 1775461368,
+      "nanosec": 257766671,
+      "sec_float": 1775461368.2577667
+    },
+    "frame_id": "xarm-gripper-joint-state data"
+  },
+  "name": [
+    "R_drive_joint",
+    "R_left_finger_joint",
+    "R_left_inner_knuckle_joint",
+    "R_right_outer_knuckle_joint",
+    "R_right_finger_joint",
+    "R_right_inner_knuckle_joint"
+  ],
+  "position": [
+    0.718999981880188,
+    0.718999981880188,
+    0.718999981880188,
+    0.718999981880188,
+    0.718999981880188,
+    0.718999981880188
+  ],
+  "velocity": [
+    NaN,
+    NaN,
+    NaN,
+    NaN,
+    NaN,
+    NaN
+  ],
+  "effort": [
+    NaN,
+    NaN,
+    NaN,
+    NaN,
+    NaN,
+    NaN
+  ]
+}

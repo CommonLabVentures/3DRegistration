@@ -1,0 +1,30 @@
+{
+  "camera_name": "eye1",
+  "color_header": {
+    "stamp": {
+      "sec": 1775461425,
+      "nanosec": 217254639,
+      "sec_float": 1775461425.2172546
+    },
+    "frame_id": "eye1_color_optical_frame"
+  },
+  "depth_header": {
+    "stamp": {
+      "sec": 1775461425,
+      "nanosec": 217254639,
+      "sec_float": 1775461425.2172546
+    },
+    "frame_id": "eye1_color_optical_frame"
+  },
+  "camera_info_header": {
+    "stamp": {
+      "sec": 1775461425,
+      "nanosec": 217254639,
+      "sec_float": 1775461425.2172546
+    },
+    "frame_id": "eye1_color_optical_frame"
+  },
+  "depth_time_diff_sec": 0.0,
+  "camera_info_time_diff_sec": 0.0,
+  "used_sync_fallback": false
+}

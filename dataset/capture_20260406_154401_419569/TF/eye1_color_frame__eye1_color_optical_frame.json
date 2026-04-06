@@ -1,0 +1,21 @@
+{
+  "source_frame": "eye1_color_frame",
+  "destination_frame": "eye1_color_optical_frame",
+  "type": "static",
+  "is_static": true,
+  "timestamp": 1775461441.3903968,
+  "topic": "/tf_static",
+  "transform": {
+    "translation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "rotation": {
+      "x": -0.5,
+      "y": 0.4999999999999999,
+      "z": -0.5,
+      "w": 0.5000000000000001
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "source_frame": "world",
+  "destination_frame": "R_xarm_gripper_base_link",
+  "type": "dynamic",
+  "is_static": false,
+  "timestamp": 1775461336.4893181,
+  "topic": "/tf",
+  "transform": {
+    "translation": {
+      "x": -0.38396295613660547,
+      "y": 0.24444109385784615,
+      "z": 0.3158878186932472
+    },
+    "rotation": {
+      "x": 3.833002107994244e-05,
+      "y": 0.9659224243142112,
+      "z": -0.25883173355111894,
+      "w": 4.94437974627985e-05
+    }
+  }
+}
