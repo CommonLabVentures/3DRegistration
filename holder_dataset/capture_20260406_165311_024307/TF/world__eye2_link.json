@@ -1,0 +1,6 @@
+{
+  "status": "error",
+  "target_frame": "world",
+  "source_frame": "eye2_link",
+  "error": "Transform world <- eye2_link is unavailable at this capture time"
+}

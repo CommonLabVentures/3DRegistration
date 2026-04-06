@@ -1,0 +1,178 @@
+{
+  "capture_id": "20260406_165239_286259",
+  "capture_dir": "/media/doggyarm/RawData2/hand_eye_calibration/2026-04-06_16-52-21__battery_holder/eye1/capture_20260406_165239_286259",
+  "bag_dir": "/media/doggyarm/T9/aptitude/bag_recording/recordings/2026-04-06_16-52-21__battery_holder/bag",
+  "trigger_joint_topic": "/R_ufactory/joint_states",
+  "trigger_stamp_sec": 1775465559.504873,
+  "selected_capture_stamp_sec": 1775465559.286259,
+  "stationary_segment_start_sec": 1775465558.5248296,
+  "stationary_segment_end_sec": 1775465559.504873,
+  "stationary_segment_duration_sec": 0.9800434112548828,
+  "camera_transform_source": "pose_lookup_calibration",
+  "match_status": "ok",
+  "cameras": {
+    "eye1": {
+      "status": "ok",
+      "camera_name": "eye1",
+      "camera_dir": "/media/doggyarm/RawData2/hand_eye_calibration/2026-04-06_16-52-21__battery_holder/eye1/capture_20260406_165239_286259/eye1",
+      "image_path": "/media/doggyarm/RawData2/hand_eye_calibration/2026-04-06_16-52-21__battery_holder/eye1/capture_20260406_165239_286259/eye1/image.jpg",
+      "depth_path": "/media/doggyarm/RawData2/hand_eye_calibration/2026-04-06_16-52-21__battery_holder/eye1/capture_20260406_165239_286259/eye1/aligned_depth_to_color.npz",
+      "color_camera_info_path": "/media/doggyarm/RawData2/hand_eye_calibration/2026-04-06_16-52-21__battery_holder/eye1/capture_20260406_165239_286259/eye1/color_camera_info.json",
+      "snapshot_metadata_path": "/media/doggyarm/RawData2/hand_eye_calibration/2026-04-06_16-52-21__battery_holder/eye1/capture_20260406_165239_286259/eye1/snapshot_metadata.json",
+      "requested_capture_stamp_sec": 1775465559.504873,
+      "selected_capture_stamp_sec": 1775465559.286259,
+      "depth_time_diff_sec": 0.0,
+      "camera_info_time_diff_sec": 0.0,
+      "used_sync_fallback": false,
+      "camera_pose_path": "/media/doggyarm/RawData2/hand_eye_calibration/2026-04-06_16-52-21__battery_holder/eye1/capture_20260406_165239_286259/eye1/camera_pose.json",
+      "tf_path": "/media/doggyarm/RawData2/hand_eye_calibration/2026-04-06_16-52-21__battery_holder/eye1/capture_20260406_165239_286259/eye1/tf.npz",
+      "tf_color_path": "/media/doggyarm/RawData2/hand_eye_calibration/2026-04-06_16-52-21__battery_holder/eye1/capture_20260406_165239_286259/eye1/tf_color.npz",
+      "camera_transform_source": "pose_lookup_calibration",
+      "matched_pose_label": "pose_003",
+      "match_distance_m": 0.00013439812315167786,
+      "base_link6_translation_m": [
+        0.4291166912799715,
+        -0.4718870509251512,
+        0.4465762943082798
+      ],
+      "world_link6_translation_m": [
+        -0.42911543908379873,
+        0.20188818962316196,
+        0.4665762943082798
+      ]
+    }
+  },
+  "joint_topics": {
+    "/L_ufactory/joint_states": "ok",
+    "/R_ufactory/joint_states": "ok",
+    "/joint_states": "ok",
+    "/ufactory/joint_states": "ok"
+  },
+  "tf_pairs": {
+    "eye1_link,eye1_color_frame": {
+      "status": "ok",
+      "json_path": "/media/doggyarm/RawData2/hand_eye_calibration/2026-04-06_16-52-21__battery_holder/eye1/capture_20260406_165239_286259/TF/eye1_link__eye1_color_frame.json",
+      "npz_path": "/media/doggyarm/RawData2/hand_eye_calibration/2026-04-06_16-52-21__battery_holder/eye1/capture_20260406_165239_286259/TF/eye1_link__eye1_color_frame.npz"
+    },
+    "eye1_color_frame,eye1_color_optical_frame": {
+      "status": "ok",
+      "json_path": "/media/doggyarm/RawData2/hand_eye_calibration/2026-04-06_16-52-21__battery_holder/eye1/capture_20260406_165239_286259/TF/eye1_color_frame__eye1_color_optical_frame.json",
+      "npz_path": "/media/doggyarm/RawData2/hand_eye_calibration/2026-04-06_16-52-21__battery_holder/eye1/capture_20260406_165239_286259/TF/eye1_color_frame__eye1_color_optical_frame.npz"
+    },
+    "world,R_link_base": {
+      "status": "ok",
+      "json_path": "/media/doggyarm/RawData2/hand_eye_calibration/2026-04-06_16-52-21__battery_holder/eye1/capture_20260406_165239_286259/TF/world__R_link_base.json",
+      "npz_path": "/media/doggyarm/RawData2/hand_eye_calibration/2026-04-06_16-52-21__battery_holder/eye1/capture_20260406_165239_286259/TF/world__R_link_base.npz"
+    },
+    "R_link_base,R_link1": {
+      "status": "ok",
+      "json_path": "/media/doggyarm/RawData2/hand_eye_calibration/2026-04-06_16-52-21__battery_holder/eye1/capture_20260406_165239_286259/TF/R_link_base__R_link1.json",
+      "npz_path": "/media/doggyarm/RawData2/hand_eye_calibration/2026-04-06_16-52-21__battery_holder/eye1/capture_20260406_165239_286259/TF/R_link_base__R_link1.npz"
+    },
+    "R_link1,R_link2": {
+      "status": "ok",
+      "json_path": "/media/doggyarm/RawData2/hand_eye_calibration/2026-04-06_16-52-21__battery_holder/eye1/capture_20260406_165239_286259/TF/R_link1__R_link2.json",
+      "npz_path": "/media/doggyarm/RawData2/hand_eye_calibration/2026-04-06_16-52-21__battery_holder/eye1/capture_20260406_165239_286259/TF/R_link1__R_link2.npz"
+    },
+    "R_link2,R_link3": {
+      "status": "ok",
+      "json_path": "/media/doggyarm/RawData2/hand_eye_calibration/2026-04-06_16-52-21__battery_holder/eye1/capture_20260406_165239_286259/TF/R_link2__R_link3.json",
+      "npz_path": "/media/doggyarm/RawData2/hand_eye_calibration/2026-04-06_16-52-21__battery_holder/eye1/capture_20260406_165239_286259/TF/R_link2__R_link3.npz"
+    },
+    "R_link3,R_link4": {
+      "status": "ok",
+      "json_path": "/media/doggyarm/RawData2/hand_eye_calibration/2026-04-06_16-52-21__battery_holder/eye1/capture_20260406_165239_286259/TF/R_link3__R_link4.json",
+      "npz_path": "/media/doggyarm/RawData2/hand_eye_calibration/2026-04-06_16-52-21__battery_holder/eye1/capture_20260406_165239_286259/TF/R_link3__R_link4.npz"
+    },
+    "R_link4,R_link5": {
+      "status": "ok",
+      "json_path": "/media/doggyarm/RawData2/hand_eye_calibration/2026-04-06_16-52-21__battery_holder/eye1/capture_20260406_165239_286259/TF/R_link4__R_link5.json",
+      "npz_path": "/media/doggyarm/RawData2/hand_eye_calibration/2026-04-06_16-52-21__battery_holder/eye1/capture_20260406_165239_286259/TF/R_link4__R_link5.npz"
+    },
+    "R_link5,R_link6": {
+      "status": "ok",
+      "json_path": "/media/doggyarm/RawData2/hand_eye_calibration/2026-04-06_16-52-21__battery_holder/eye1/capture_20260406_165239_286259/TF/R_link5__R_link6.json",
+      "npz_path": "/media/doggyarm/RawData2/hand_eye_calibration/2026-04-06_16-52-21__battery_holder/eye1/capture_20260406_165239_286259/TF/R_link5__R_link6.npz"
+    },
+    "R_link6,R_xarm_gripper_base_link": {
+      "status": "ok",
+      "json_path": "/media/doggyarm/RawData2/hand_eye_calibration/2026-04-06_16-52-21__battery_holder/eye1/capture_20260406_165239_286259/TF/R_link6__R_xarm_gripper_base_link.json",
+      "npz_path": "/media/doggyarm/RawData2/hand_eye_calibration/2026-04-06_16-52-21__battery_holder/eye1/capture_20260406_165239_286259/TF/R_link6__R_xarm_gripper_base_link.npz"
+    },
+    "world,R_xarm_gripper_base_link": {
+      "status": "ok",
+      "json_path": "/media/doggyarm/RawData2/hand_eye_calibration/2026-04-06_16-52-21__battery_holder/eye1/capture_20260406_165239_286259/TF/world__R_xarm_gripper_base_link.json",
+      "npz_path": "/media/doggyarm/RawData2/hand_eye_calibration/2026-04-06_16-52-21__battery_holder/eye1/capture_20260406_165239_286259/TF/world__R_xarm_gripper_base_link.npz"
+    },
+    "world,eye2_link": {
+      "status": "error",
+      "json_path": "/media/doggyarm/RawData2/hand_eye_calibration/2026-04-06_16-52-21__battery_holder/eye1/capture_20260406_165239_286259/TF/world__eye2_link.json",
+      "error": "Transform world <- eye2_link is unavailable at this capture time"
+    },
+    "eye2_link,eye2_color_frame": {
+      "status": "ok",
+      "json_path": "/media/doggyarm/RawData2/hand_eye_calibration/2026-04-06_16-52-21__battery_holder/eye1/capture_20260406_165239_286259/TF/eye2_link__eye2_color_frame.json",
+      "npz_path": "/media/doggyarm/RawData2/hand_eye_calibration/2026-04-06_16-52-21__battery_holder/eye1/capture_20260406_165239_286259/TF/eye2_link__eye2_color_frame.npz"
+    },
+    "eye2_color_frame,eye2_color_optical_frame": {
+      "status": "ok",
+      "json_path": "/media/doggyarm/RawData2/hand_eye_calibration/2026-04-06_16-52-21__battery_holder/eye1/capture_20260406_165239_286259/TF/eye2_color_frame__eye2_color_optical_frame.json",
+      "npz_path": "/media/doggyarm/RawData2/hand_eye_calibration/2026-04-06_16-52-21__battery_holder/eye1/capture_20260406_165239_286259/TF/eye2_color_frame__eye2_color_optical_frame.npz"
+    },
+    "L_link_base,L_link1": {
+      "status": "ok",
+      "json_path": "/media/doggyarm/RawData2/hand_eye_calibration/2026-04-06_16-52-21__battery_holder/eye1/capture_20260406_165239_286259/TF/L_link_base__L_link1.json",
+      "npz_path": "/media/doggyarm/RawData2/hand_eye_calibration/2026-04-06_16-52-21__battery_holder/eye1/capture_20260406_165239_286259/TF/L_link_base__L_link1.npz"
+    },
+    "L_link1,L_link2": {
+      "status": "ok",
+      "json_path": "/media/doggyarm/RawData2/hand_eye_calibration/2026-04-06_16-52-21__battery_holder/eye1/capture_20260406_165239_286259/TF/L_link1__L_link2.json",
+      "npz_path": "/media/doggyarm/RawData2/hand_eye_calibration/2026-04-06_16-52-21__battery_holder/eye1/capture_20260406_165239_286259/TF/L_link1__L_link2.npz"
+    },
+    "L_link2,L_link3": {
+      "status": "ok",
+      "json_path": "/media/doggyarm/RawData2/hand_eye_calibration/2026-04-06_16-52-21__battery_holder/eye1/capture_20260406_165239_286259/TF/L_link2__L_link3.json",
+      "npz_path": "/media/doggyarm/RawData2/hand_eye_calibration/2026-04-06_16-52-21__battery_holder/eye1/capture_20260406_165239_286259/TF/L_link2__L_link3.npz"
+    },
+    "L_link3,L_link4": {
+      "status": "ok",
+      "json_path": "/media/doggyarm/RawData2/hand_eye_calibration/2026-04-06_16-52-21__battery_holder/eye1/capture_20260406_165239_286259/TF/L_link3__L_link4.json",
+      "npz_path": "/media/doggyarm/RawData2/hand_eye_calibration/2026-04-06_16-52-21__battery_holder/eye1/capture_20260406_165239_286259/TF/L_link3__L_link4.npz"
+    },
+    "L_link4,L_link5": {
+      "status": "ok",
+      "json_path": "/media/doggyarm/RawData2/hand_eye_calibration/2026-04-06_16-52-21__battery_holder/eye1/capture_20260406_165239_286259/TF/L_link4__L_link5.json",
+      "npz_path": "/media/doggyarm/RawData2/hand_eye_calibration/2026-04-06_16-52-21__battery_holder/eye1/capture_20260406_165239_286259/TF/L_link4__L_link5.npz"
+    },
+    "L_link5,L_link6": {
+      "status": "ok",
+      "json_path": "/media/doggyarm/RawData2/hand_eye_calibration/2026-04-06_16-52-21__battery_holder/eye1/capture_20260406_165239_286259/TF/L_link5__L_link6.json",
+      "npz_path": "/media/doggyarm/RawData2/hand_eye_calibration/2026-04-06_16-52-21__battery_holder/eye1/capture_20260406_165239_286259/TF/L_link5__L_link6.npz"
+    },
+    "L_link6,L_xarm_gripper_base_link": {
+      "status": "ok",
+      "json_path": "/media/doggyarm/RawData2/hand_eye_calibration/2026-04-06_16-52-21__battery_holder/eye1/capture_20260406_165239_286259/TF/L_link6__L_xarm_gripper_base_link.json",
+      "npz_path": "/media/doggyarm/RawData2/hand_eye_calibration/2026-04-06_16-52-21__battery_holder/eye1/capture_20260406_165239_286259/TF/L_link6__L_xarm_gripper_base_link.npz"
+    },
+    "world,L_xarm_gripper_base_link": {
+      "status": "ok",
+      "json_path": "/media/doggyarm/RawData2/hand_eye_calibration/2026-04-06_16-52-21__battery_holder/eye1/capture_20260406_165239_286259/TF/world__L_xarm_gripper_base_link.json",
+      "npz_path": "/media/doggyarm/RawData2/hand_eye_calibration/2026-04-06_16-52-21__battery_holder/eye1/capture_20260406_165239_286259/TF/world__L_xarm_gripper_base_link.npz"
+    }
+  },
+  "matched_pose_label": "pose_003",
+  "match_distance_m": 0.00013439812315167786,
+  "match_calibration_json": "/home/doggyarm/Code/victor_taskmanager/commands/task0001__AA_battery/calibration/2026-04-03_16-48-00__charucoboard__eye1_R_pose_lookup.json",
+  "match_translation_key": "base_link6_translation_m",
+  "base_link6_translation_m": [
+    0.4291166912799715,
+    -0.4718870509251512,
+    0.4465762943082798
+  ],
+  "world_link6_translation_m": [
+    -0.42911543908379873,
+    0.20188818962316196,
+    0.4665762943082798
+  ],
+  "lookup_camera_pose_path": "/media/doggyarm/RawData2/hand_eye_calibration/2026-04-06_16-52-21__battery_holder/eye1/capture_20260406_165239_286259/eye1/camera_pose.json"
+}

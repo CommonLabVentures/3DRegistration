@@ -1,0 +1,21 @@
+{
+  "source_frame": "L_link4",
+  "destination_frame": "L_link5",
+  "type": "dynamic",
+  "is_static": false,
+  "timestamp": 1775465568.6314812,
+  "topic": "/tf",
+  "transform": {
+    "translation": {
+      "x": 4.400000034365803e-05,
+      "y": -0.00017600000137463212,
+      "z": -1.839420325859909e-36
+    },
+    "rotation": {
+      "x": 0.7071067966408575,
+      "y": 0.0,
+      "z": 0.0,
+      "w": -0.7071067657322372
+    }
+  }
+}

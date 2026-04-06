@@ -1,0 +1,50 @@
+[
+  {
+    "frame_id": "001",
+    "bbox_xywh": [
+      242,
+      219,
+      70,
+      43
+    ],
+    "mask_area_px": 1835,
+    "seed_area_px": 736,
+    "fallback_used": false
+  },
+  {
+    "frame_id": "002",
+    "bbox_xywh": [
+      377,
+      257,
+      56,
+      59
+    ],
+    "mask_area_px": 1654,
+    "seed_area_px": 648,
+    "fallback_used": false
+  },
+  {
+    "frame_id": "004",
+    "bbox_xywh": [
+      456,
+      248,
+      64,
+      22
+    ],
+    "mask_area_px": 1224,
+    "seed_area_px": 303,
+    "fallback_used": false
+  },
+  {
+    "frame_id": "005",
+    "bbox_xywh": [
+      539,
+      240,
+      72,
+      53
+    ],
+    "mask_area_px": 2018,
+    "seed_area_px": 867,
+    "fallback_used": false
+  }
+]
